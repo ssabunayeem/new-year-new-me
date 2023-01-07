@@ -1,0 +1,236 @@
+body {
+    margin: 0 auto;
+    font-family: 'Work Sans', sans-serif;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+button {
+    padding: 15px 30px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #005FAC;
+    border-radius: 9px
+}
+
+main {
+    margin: 0 auto;
+
+}
+
+/* ******  nav section ********/
+
+nav {
+    width: 1540px;
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(rgb(155, 133, 235), rgb(21, 29, 54));
+    padding: 30px;
+    /* border-radius: 5px; */
+}
+
+nav a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 20px;
+    margin-right: 20px;
+
+}
+
+/* -------------------header section-------------------- */
+.header {
+    background-image: url(images/banner/banner3.png);
+    width: 1600px;
+    height: 808px;
+
+    color: #FFFFFF;
+    text-align: right;
+}
+
+
+.header-title {
+
+    position: absolute;
+    width: 525px;
+    height: 228px;
+    left: 845px;
+    top: 216px;
+
+    font-weight: 700;
+    font-size: 65px;
+}
+
+.header-info {
+    position: absolute;
+    width: 494px;
+    height: 78px;
+    left: 876px;
+    top: 490px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.button1 {
+    position: absolute;
+    left: 1200px;
+    top: 599px;
+}
+
+
+/* ----------------main section------------------ */
+
+/* My failures section */
+
+.my-failures img {
+    padding-left: 330px;
+    padding-top: 150px;
+    width: 569px;
+    height: 723.3px;
+    left: 206px;
+    top: 939px;
+}
+
+.my-failure {
+    position: absolute;
+    width: 416px;
+    height: 400px;
+    left: 862px;
+    top: 1178px;
+}
+
+
+
+.my-failure li {
+    margin: 10px 0px;
+    list-style: none;
+}
+
+.fa-check {
+    color: green;
+}
+
+/******* My Plane section ******/
+
+.my-plans h3 {
+    margin-left: 750px;
+}
+
+.plans {
+    display: flex;
+    justify-content: space-around;
+    width: 1141px;
+    height: 202px;
+    padding-left: 300px;
+}
+
+h4 {
+    font-weight: 700;
+    font-size: 23px;
+    margin: 0;
+    padding: 0;
+}
+
+.call-cotainer {
+    background: url(images/watch.png);
+    color: #FFFFFF;
+    position: relative;
+    width: 1140px;
+    height: 300px;
+    left: 230px;
+    top: 50px;
+    border-radius: 8px;
+
+
+}
+
+.color-overlay {
+    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
+    position: relative;
+    width: 1140px;
+    height: 300px;
+    /* left: 130px;
+    top: 50px; */
+    border-radius: 8px;
+
+}
+
+.call-cotainer h3 {
+    position: absolute;
+    height: 90px;
+    width: 500px;
+    top: 55px;
+    left: 60px;
+    z-index: 1;
+}
+
+.button2 {
+    position: absolute;
+    left: 55px;
+    top: 220px;
+    z-index: 1;
+}
+
+/****    footer  *****/
+
+footer {
+    width: 1600px;
+    height: 500px;
+    color: white;
+    background-color: black;
+
+    /* padding-top: 10px;
+    padding-bottom: 10px; */
+}
+
+.containers {
+    display: flex;
+    margin-top: 150px;
+    margin-left: 17%;
+    padding-top: 70px;
+
+}
+
+.container1 {
+    width: 485px;
+    height: 317px;
+}
+
+.container2 {
+    width: 325px;
+    height: 204px;
+    padding-left: 200px;
+}
+
+.footer-icon {
+    display: flex;
+}
+
+.footer-icon img {
+    margin-right: 20px;
+}
+
+.container2 h4 {
+    font-size: 25px;
+    padding-bottom: 30px;
+    padding-top: 35px;
+}
+
+.container2 input {
+    width: 325px;
+    height: 64px;
+    color: white;
+    background-color: black;
+    padding-left: 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-size: larger;
+}
+
+.button3 {
+    background-color: #005FAC;
+    color: white;
+    margin-top: 30px;
+}
